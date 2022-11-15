@@ -1,0 +1,365 @@
+@media only screen and (max-width: 1200px) {
+  .header__inner {
+    padding: 30px 30px;
+  }
+  .header {
+    border-radius: 0 0 150px 0;
+  }
+  .offer__content {
+    padding-left: 20px;
+  }
+  .offer__tittle {
+    font-weight: 700;
+    font-size: 66px;
+    line-height: 85px;
+    letter-spacing: -2px;
+    color: #ffffff;
+  }
+  .offer__phone {
+    width: 40%;
+  }
+  .jackpot__inner {
+    padding: 200px 15px 0 15px;
+  }
+  /**WORKS**/
+  .works__inner {
+    padding: 90px 15px 156px 15px;
+  }
+  .work__item__content {
+    width: 215px;
+  }
+  .arrow {
+    width: 70%;
+  }
+  .works__items {
+    padding-top: 100px;
+  }
+  /**PEOPLE**/
+  .testimunial__item {
+    width: 90%;
+  }
+  .testimunial__prof {
+    font-size: 16px;
+  }
+  .testimunial__items {
+    flex-direction: column;
+  }
+  .testimunial__item {
+    margin: 10px 10px;
+  }
+  /**PAYMENT**/
+  .payment__content {
+    width: 60%;
+  }
+}
+
+@media only screen and (max-width: 992px) {
+  header {
+    border-radius: 0 0 250px 0;
+  }
+  .offer__inner {
+    padding: 60px 0 110px 0;
+  }
+  .offer__tittle {
+    font-size: 60px;
+    line-height: 68px;
+  }
+  .offer__disc {
+    line-height: 35px;
+  }
+  .offer__content {
+    width: 95%;
+  }
+  .sponser p {
+    font-size: 14px;
+    margin-right: 15px;
+  }
+  /**quality**/
+  .quality__tittle {
+    font-size: 34px;
+    padding: 0px 0 52px 0;
+  }
+  .app__item {
+    margin: 0 20px;
+  }
+  /**features**/
+  .features {
+    padding-top: 100px;
+  }
+  .features__tittle {
+    font-size: 33px;
+    line-height: 47px;
+    padding: 10px 0 27px 0;
+  }
+  .features__content {
+    margin-left: 28px;
+  }
+  /**APP**/
+  .app__item__two {
+    width: 450px;
+  }
+  .jackpot__content .features__tittle {
+    font-size: 32px;
+  }
+  .jackpot__content p {
+    font-size: 16px;
+    line-height: 38px;
+  }
+  /**WORKS**/
+  .work__item__content {
+    width: 170px;
+  }
+  .arrow {
+    width: 65%;
+  }
+  .work__item__content h4 {
+    font-size: 18px;
+  }
+  /**PAYMENT**/
+  .payment__content {
+    width: 90%;
+  }
+  .payment__tittle {
+    font-size: 37px;
+  }
+  /**PRICE**/
+  .price__items {
+    flex-wrap: wrap;
+  }
+  .price__item {
+    margin: 15px 15px;
+  }
+  /**QUESTION**/
+  .question__item {
+    width: 90%;
+  }
+  /**FOOTER**/
+  .footer__inner {
+    border-top: 1px solid #e5ecf4;
+    padding: 0 90px 131px 90px;
+    display: flex;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  header {
+    border-radius: 0 0 150px 0;
+  }
+  .offer__content {
+    width: 100%;
+  }
+  .offer__phone {
+    display: none;
+  }
+  .offer__tittle {
+    font-size: 38px;
+    line-height: 55px;
+  }
+  .header__nav {
+    display: none;
+  }
+  .sponser p {
+    display: none;
+  }
+  .sponser img {
+    margin: 0px 10px;
+  }
+  /**quality**/
+  .quality__tittle {
+    font-size: 32px;
+  }
+  .app__items {
+    flex-direction: column;
+  }
+  .app__item {
+    margin: 15px 0;
+  }
+  .app__item img {
+    width: 30%;
+  }
+  .app__item h4 {
+    padding: 17px 0 16px 0;
+  }
+  /**features**/
+  .features__inner {
+    flex-direction: column-reverse;
+  }
+  .features__phone {
+    width: 40%;
+  }
+  .app__inner {
+    padding-top: 45px;
+  }
+  .app__item__two {
+    margin: 15px 0px;
+  }
+  .app__item__content h4 {
+    padding-bottom: 5px;
+  }
+  /**JACKPOT**/
+  .jackpot__inner {
+    text-align: center;
+    flex-direction: column;
+  }
+  .jackpot__content {
+    width: 100%;
+  }
+  .jackpot__image {
+    padding-top: 20px;
+    width: 100%;
+  }
+  /**WORKS**/
+  .work__item__content {
+    width: 100%;
+  }
+  .work__item__content h4 {
+    padding: 8px 0 8px 0;
+  }
+  .item__step {
+    justify-content: center;
+  }
+  .works__items {
+    flex-direction: column;
+    text-align: center;
+  }
+  .arrow {
+    display: none;
+  }
+  .works__item {
+    margin: 20px 0;
+  }
+  .works__items {
+    padding-top: 50px;
+  }
+  /**PAYMENT**/
+  .payment__image {
+    display: none;
+  }
+  /**FOOTER**/
+  .footer__inner {
+    border-top: 1px solid #e5ecf4;
+    padding: 0 10px 131px 10px;
+    display: flex;
+    flex-wrap: wrap;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  header {
+    border-radius: 0 0 90px 0;
+  }
+  .sponser {
+    flex-wrap: wrap;
+  }
+  .sponser img {
+    margin: 10px 10px;
+  }
+  .header__inner .header__button {
+    display: none;
+  }
+  .header__menu {
+    display: block;
+  }
+  .offer__tittle {
+    font-size: 38px;
+    line-height: 50px;
+  }
+  .offer__disc {
+    width: 89%;
+  }
+  /**quality**/
+  .quality__tittle {
+    font-size: 25px;
+    padding: 0px 0 26px 0;
+  }
+  .quality__detittle {
+    line-height: 18px;
+  }
+  .app__item h4 {
+    padding: 15px 0 6px 0;
+  }
+  /**features**/
+  .features__inner {
+    padding: 0 15px;
+  }
+  .features__tittle {
+    font-size: 23px;
+    line-height: 38px;
+  }
+  .features__phone {
+    width: 60%;
+  }
+  .features_item {
+    padding: 15px 5px;
+  }
+  .features__item__img img {
+    min-width: 45px;
+    min-height: 45px;
+  }
+  .features__item__text h4 {
+    padding-bottom: 11px;
+  }
+  .features__item__text p {
+    font-size: 11px;
+    line-height: 23px;
+  }
+  /**APP**/
+  .app__item__two img {
+    height: 50px;
+  }
+  .app__items {
+    padding: 0 10px;
+  }
+  .app__item__two {
+    width: 280px;
+  }
+  .app__item__content {
+    margin-left: 15px;
+  }
+  .app__item__content p {
+    font-size: 14px;
+    line-height: 23px;
+  }
+  /**JACKPOT**/
+  .jackpot__inner {
+    padding: 100px 15px 0 15px;
+  }
+  /**WORKS**/
+  .testimunial__inner {
+    padding: 0 15px 160px 15px;
+  }
+  .works__tittle {
+    font-size: 30px;
+  }
+  .testimunial__item {
+    width: 100%;
+  }
+  .testimunial__item p {
+    font-size: 14px;
+    line-height: 27px;
+  }
+  /**PAYMENT**/
+  .payment__tittle {
+    font-size: 31px;
+    line-height: 41px;
+  }
+  .payment__content p {
+    font-size: 16px;
+    line-height: 34px;
+  }
+  /**PRICE**/
+  .price__item {
+    margin: 15px 15px;
+    padding: 21px 10px 50px 10px;
+    width: 90%;
+  }
+  .price__button button {
+    margin-left: 19%;
+  }
+  .price__price {
+    padding-bottom: 20px;
+  }
+}
+
+@media only screen and (max-width: 320px) {
+}
